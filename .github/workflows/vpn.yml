@@ -3,8 +3,8 @@ name: Publish myarch
 on:
   push:
     paths:
-    - 'myarch/**'
-    - '.github/workflows/myarch.yml'
+    - 'vpn/**'
+    - '.github/workflows/archvpn.yml'
 
 jobs:
   build:
@@ -14,6 +14,6 @@ jobs:
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: yooooomi/myarch
+        name: yooooomi/arm-archvpn
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
