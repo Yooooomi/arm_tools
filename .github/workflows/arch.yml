@@ -1,4 +1,4 @@
-name: Publish myarch
+name: Publish ARCH
 
 on:
   push:
