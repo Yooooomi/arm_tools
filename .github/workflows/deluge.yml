@@ -3,8 +3,8 @@ name: Publish myarch
 on:
   push:
     paths:
-    - 'myarch/**'
-    - '.github/workflows/myarch.yml'
+    - 'arm-archvpndeluge/**'
+    - '.github/workflows/deluge.yml'
 
 jobs:
   build:

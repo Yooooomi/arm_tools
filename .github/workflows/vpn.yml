@@ -3,8 +3,8 @@ name: Publish myarch
 on:
   push:
     paths:
-    - 'vpn/**'
-    - '.github/workflows/archvpn.yml'
+    - 'arm-archvpn/**'
+    - '.github/workflows/vpn.yml'
 
 jobs:
   build:
