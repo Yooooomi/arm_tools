@@ -17,3 +17,4 @@ jobs:
         name: yooooomi/arm-archvpn
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        workdir: arm-archvpn/

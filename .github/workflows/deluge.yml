@@ -17,3 +17,4 @@ jobs:
         name: yooooomi/arm-archvpndeluge
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        workdir: arm-archvpndeluge/

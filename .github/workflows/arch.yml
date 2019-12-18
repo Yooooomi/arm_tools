@@ -17,3 +17,4 @@ jobs:
         name: yooooomi/arm-arch
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        workdir: arm-arch/
