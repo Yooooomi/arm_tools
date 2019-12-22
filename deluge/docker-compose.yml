@@ -22,3 +22,4 @@ services:
       - VPN_ENABLED=yes
       - VPN_USER=<user>
       - VPN_PASS=<password>
+      - VPN_PROVIDER=NORDVPN
